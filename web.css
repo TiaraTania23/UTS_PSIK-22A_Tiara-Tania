@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Potta+One&display=swap");
+
+body {
+  background-color: #c17d7d;
+}
+
+.logo {
+  color: brown;
+  font-family: "Jim NightShade";
+}
+.nav {
+  text-align: center; 
+}
+
+.nav a {
+  text-decoration: none; 
+  color: #c0b8b8; 
+  font-size: 18px; 
+  margin: 10px; 
+  padding: 5px 10px; 
+  background-color: #b86969; 
+  border-radius: 5px; 
+}
+
+.nav a:hover {
+  background-color: #333; 
+  color: #fff; 
+}
+
+.salam-kenal {
+  text-align: left;
+  color: rgb(7, 0, 0);
+  font-family: "Potta One";
+  font-size: larger;
+}
+
+.my-photo img {
+  max-width: 200px; 
+  height: auto; 
+  display: block; 
+}
+
+.lebih-lanjut {
+  text-align: left;
+  font-size: large;
+  color: brown;
+}
+
+.uy h2 {
+  color: rgba(164, 81, 42, 0.885);
+  font-family: "Kavoon";
+  margin-left: 15%;
+  font-size: 48px;
+  flex: 1;
+  padding: 10px;
+  padding-left: 30px;
+}
+.uy h2 {
+  color: rgba(164, 81, 42, 0.885);
+  font-family: "Kavoon";
+  margin-left: 15%;
+  font-size: 48px;
+  flex: 1;
+  padding: 10px;
+  padding-left: 30px;
+}
+.uy p {
+  color: black;
+  margin-left: 15%;
+  font-family: "Joti One";
+  font-size: 25px;
+  flex: 1;
+  padding: 10px;
+  padding-left: 30px;
+}
+section h2 {
+  color: rgba(164, 81, 42, 0.885);
+  font-family: "Kavoon";
+  text-align: center;
+  font-size: 48px;
+  flex: 1;
+  padding: 10px;
+  padding-left: 30px;
+}
+.uy h2 {
+  color: rgba(164, 81, 42, 0.885);
+  font-family: "Kavoon";
+  margin-left: 15%;
+  font-size: 48px;
+  flex: 1;
+  padding: 10px;
+  padding-left: 30px;
+}
+.card {
+  height: 200px;
+  width: 200px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.Skill {
+  width: 100%;
+  padding: 100px 0;
+  background-color: white;
+  text-align: center;
+}
+
+.Skill-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(14, 14, 14);
+  font-weight: bold;
+}
+
+.Skill-bar p {
+  text-align: left;
+}
+
+.skill-box {
+  text-align: right;
+  width: 100%;
+  background-color: rgb(7, 0, 0);
+}
+
+.HTML {
+  width: 85%;
+  background-color: rgb(205, 27, 56);
+}
+
+.CSS {
+  width: 58%;
+  background-color: rgb(205, 27, 56);
+}
+
+.Python {
+  width: 60%;
+  background-color: rgb(205, 27, 56);
+}
+
+.Java {
+  width: 55%;
+  background-color: rgb(205, 27, 56);
+}
+
+.experince {
+  background-color: #f5f5f5; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+.experince {
+  background-color: #f5f5f5; 
+  padding: 10px; 
+  text-align: center; 
+}
+
+.experince h2 {
+  font-size: 27px; 
+  color: brown;
+}
+
+.experince p {
+  font-size: 20px; 
+  color: black; 
+  text-align: justify; 
+}
+
+.experince table {
+  margin: 10px auto; 
+  border-collapse: collapse; 
+}
+
+.experince td {
+  padding: 10px; 
+}
+
+.experince img {
+  max-width: 200px; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.experince a:hover img {
+  opacity: 0.4; 
+}
+
+.my-blog {
+  background-color: #f5f5f5; 
+  padding: 20px; 
+  border-radius: 10px; 
+  text-align: center; 
+}
+
+.my-blog h2 {
+  font-size: 30px;
+  color: brown; 
+}
+
+.my-blog p {
+  font-size: 20px; 
+  color: black;
+  text-align: justify;
+  margin: 10px 0; 
+}
+
+.my-blog table {
+  margin: 20px auto; 
+  border-collapse: collapse; 
+}
+
+.my-blog td {
+  padding: 10px; 
+}
+
+.my-blog img {
+  max-width: 150px; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+
+.Education {
+  padding: 40px;
+}
+
+#education {
+  text-align: center; 
+}
+
+.Education td {
+  padding: 20px;
+  border: 1px solid #ddd; 
+  background-color: #fff; 
+}
+
+.Education h3 {
+  font-size: 20px; 
+  color: #333; 
+}
+
+.Education h4 {
+  font-size: 18px; 
+  color: #666; 
+}
+
+.Education table img {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+
+.skill-progress {
+  background-color: #925f5f;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 20px;
+  color: white;
+  background-color: #dbdbdb;
+}
+
+.experince {
+  color: rgb(239, 240, 241);
+  font-family: "Poppins";
+  font-style: bold;
+  font-size: 20px;
+
+.my-experince {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins";
+  font-style: bold;
+  font-size: 20px;
+}
+
+.section .hubungi-saya {
+  font-size: 20px; 
+  color: brown; 
+  text-align: center; 
+  margin-bottom: 20px; 
+  
+}
